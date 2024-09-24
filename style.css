@@ -1,0 +1,68 @@
+.body {
+    background-color: white ;
+}
+.topnavi {
+    background-color: lightblue;
+    border:1px solid black;
+}
+
+.topnav {
+    background-color: lightgray;
+    font-family: Calibri light;
+    font-size: 20px;
+    padding:30px;
+    border: 1px solid black;
+    h1 {
+        color: black;
+    font-size: 30px;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+}
+
+.aside {
+    h1 {
+        color: black;
+        font-size: 30px;
+        background-color: darkred;
+       padding:30px;
+        align-content: right;
+    }
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.float-child {
+    width: 200%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.vertraging {
+
+        position: absolute;
+        bottom: 20;
+        right: 0;
+        width: 400px;
+        border: 1px solid black;
+        length: 50;
+    }
+
+
+.button {
+    width: 80px;
+    margin-left: auto;
+    margin-right: 0;
+
+}
